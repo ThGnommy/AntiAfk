@@ -69,5 +69,12 @@ namespace AntiAfk
             }
             base.OnPreviewKeyDown(e);
         }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            string ms = "Mouse Start";
+            string mp = "Mouse Stop";
+
+        }
     }
 }

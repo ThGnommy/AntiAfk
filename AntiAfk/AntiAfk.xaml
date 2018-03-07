@@ -22,6 +22,7 @@
         <Button x:Name="button1" Content="Start" HorizontalAlignment="Left" Margin="200,230,0,0" VerticalAlignment="Top" Width="137" Height="37" FontSize="18" FontFamily="LifeCraft" Click="button1_Click" Background="#FFDDDDDD"/>
         <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="10,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="66" Width="111" FontSize="36" Foreground="White" FontFamily="LifeCraft" FontStyle="Italic" FontStretch="Condensed"><Run Text="Input counter:"/><LineBreak/><Run/></TextBlock>
         <TextBlock x:Name="tb1" HorizontalAlignment="Left" Margin="21,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="42" Width="180" Foreground="White" Text="0" FontSize="36" FontFamily="LifeCraft"/>
+        <Button x:Name="button2" Content="Mouse Start" HorizontalAlignment="Left" Margin="418,230,0,0" VerticalAlignment="Top" Width="75" Height="37" Click="button2_Click"/>
 
     </Grid>
 </Window>

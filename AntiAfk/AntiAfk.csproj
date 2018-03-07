@@ -65,6 +65,27 @@
     <ApplicationIcon>ak.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Codeer.Friendly, Version=2.5.0.0, Culture=neutral, PublicKeyToken=6c44da6fca38aa86, processorArchitecture=MSIL">
+      <HintPath>..\packages\Codeer.Friendly.2.5.0\lib\net40\Codeer.Friendly.dll</HintPath>
+    </Reference>
+    <Reference Include="Codeer.Friendly.Dynamic, Version=2.5.0.0, Culture=neutral, PublicKeyToken=376bc779077733e8, processorArchitecture=MSIL">
+      <HintPath>..\packages\Codeer.Friendly.2.5.0\lib\net40\Codeer.Friendly.Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="Codeer.Friendly.Windows, Version=2.7.0.0, Culture=neutral, PublicKeyToken=532f270f1da385b3, processorArchitecture=MSIL">
+      <HintPath>..\packages\Codeer.Friendly.Windows.2.7.0\lib\net20\Codeer.Friendly.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Codeer.Friendly.Windows.Grasp.2.0, Version=2.7.0.0, Culture=neutral, PublicKeyToken=92809a28945fb91d, processorArchitecture=MSIL">
+      <HintPath>..\packages\Codeer.Friendly.Windows.Grasp.2.7.0\lib\net35\Codeer.Friendly.Windows.Grasp.2.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Codeer.Friendly.Windows.Grasp.3.5, Version=2.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Codeer.Friendly.Windows.Grasp.2.7.0\lib\net35\Codeer.Friendly.Windows.Grasp.3.5.dll</HintPath>
+    </Reference>
+    <Reference Include="Codeer.Friendly.Windows.KeyMouse.2.0, Version=0.5.0.0, Culture=neutral, PublicKeyToken=315dcaa3c3e851c2, processorArchitecture=MSIL">
+      <HintPath>..\packages\Codeer.Friendly.Windows.KeyMouse.0.5.0\lib\net35\Codeer.Friendly.Windows.KeyMouse.2.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Codeer.Friendly.Windows.KeyMouse.3.5, Version=0.5.0.0, Culture=neutral, PublicKeyToken=39f6ecaa6ad3a1f3, processorArchitecture=MSIL">
+      <HintPath>..\packages\Codeer.Friendly.Windows.KeyMouse.0.5.0\lib\net35\Codeer.Friendly.Windows.KeyMouse.3.5.dll</HintPath>
+    </Reference>
     <Reference Include="Dapplo.Log, Version=1.0.29.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Dapplo.Log.1.0.29\lib\net45\Dapplo.Log.dll</HintPath>
     </Reference>
@@ -85,6 +106,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Reactive.Core, Version=3.0.3000.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Reactive.Core.3.1.1\lib\net46\System.Reactive.Core.dll</HintPath>
     </Reference>
